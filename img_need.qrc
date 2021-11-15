@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>img/back.png</file>
+        <file>img/back2.png</file>
+        <file>img/bgimg.png</file>
+        <file>img/白钥匙.png</file>
+        <file>img/单本添加.png</file>
+        <file>img/返回.png</file>
+        <file>img/批量添加.png</file>
+        <file>img/提交.png</file>
+        <file>img/图书.png</file>
+        <file>img/钥匙.png</file>
+        <file>img/用户.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>manager</class>
+ <widget class="QWidget" name="manager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1135</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Manager_Interface</string>
+  </property>
+  <widget class="SearchAndSelect" name="search_widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>350</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>169</y>
+     <width>771</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="testLayout"/>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>250</y>
+     <width>241</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="AddMany">
+      <property name="text">
+       <string>批量添加</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="AddOnly">
+      <property name="text">
+       <string>单本添加</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Add_return">
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SearchAndSelect</class>
+   <extends>QWidget</extends>
+   <header location="global">searchandselect.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

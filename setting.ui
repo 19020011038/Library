@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setting</class>
+ <widget class="QMainWindow" name="setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>503</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image:url(back.png)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>30</y>
+      <width>485</width>
+      <height>515</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url()</string>
+    </property>
+    <property name="title">
+     <string>学生个人信息</string>
+    </property>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>270</y>
+       <width>411</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+     <property name="title">
+      <string>菜单栏</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QPushButton" name="change_information">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Adobe Arabic</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*	qproperty-icon: url(./appIcons/location-1.png);
+按钮普通态*/
+QPushButton
+{
+	border:0.5px groove gray;
+	border-radius:5px;
+	padding:2px 4px;
+	background-color:rgb(233 , 232 , 227);
+}
+
+/*按钮停留态*/
+QPushButton:hover
+{
+    /*背景颜色*/  
+    background-color:rgb(255 , 255 , 255);
+}
+
+/*按钮按下态*/
+QPushButton:pressed
+{
+    /*背景颜色*/  
+    background-color:rgb(255 , 255 , 255);
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:5px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:5px;
+}</string>
+        </property>
+        <property name="text">
+         <string>修改密码</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>钥匙.png</normaloff>钥匙.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_15">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_return">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Adobe Arabic</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*	qproperty-icon: url(./appIcons/location-1.png);
+按钮普通态*/
+QPushButton
+{
+	border:0.5px groove gray;
+	border-radius:5px;
+	padding:2px 4px;
+	background-color:rgb(233 , 232 , 227);
+}
+
+/*按钮停留态*/
+QPushButton:hover
+{
+    /*背景颜色*/  
+    background-color:rgb(255 , 255 , 255);
+}
+
+/*按钮按下态*/
+QPushButton:pressed
+{
+    /*背景颜色*/  
+    background-color:rgb(255 , 255 , 255);
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:5px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:5px;
+}</string>
+        </property>
+        <property name="text">
+         <string>返回</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>返回.png</normaloff>返回.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_16">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="exit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Adobe Arabic</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*	qproperty-icon: url(./appIcons/location-1.png);
+按钮普通态*/
+QPushButton
+{
+	border:0.5px groove gray;
+	border-radius:5px;
+	padding:2px 4px;
+	background-color:rgb(233 , 232 , 227);
+}
+
+/*按钮停留态*/
+QPushButton:hover
+{
+    /*背景颜色*/  
+    background-color:rgb(255 , 255 , 255);
+}
+
+/*按钮按下态*/
+QPushButton:pressed
+{
+    /*背景颜色*/  
+    background-color:rgb(255 , 255 , 255);
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:5px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:5px;
+}</string>
+        </property>
+        <property name="text">
+         <string>退出登录</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="name_label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>70</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>AcadEref</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="name_">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>70</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sex_label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>120</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>AcadEref</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+     <property name="text">
+      <string>性别</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="sex">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>120</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="account_label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>170</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>AcadEref</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+     <property name="text">
+      <string>学号</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="account">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>170</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="major_label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>220</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>AcadEref</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+     <property name="text">
+      <string>专业</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="major">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>220</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image:url()</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>503</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

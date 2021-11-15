@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Manager_Interface</class>
+ <widget class="QWidget" name="Manager_Interface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Manager_Interface</string>
+  </property>
+  <widget class="SearchAndSelect" name="search_widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>350</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>169</y>
+     <width>561</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="testLayout"/>
+  </widget>
+  <widget class="QPushButton" name="pushButton_return">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>90</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>140</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加载推荐列表</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SearchAndSelect</class>
+   <extends>QWidget</extends>
+   <header location="global">searchandselect.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
